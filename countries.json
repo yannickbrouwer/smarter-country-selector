@@ -1,0 +1,1806 @@
+[
+  {
+    "en-GB": "Andorra",
+    "nl-NL": "Andorra",
+    "countryCode": "AD",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "United Arab Emirates",
+    "nl-NL": "Verenigde Arabische Emiraten",
+    "countryCode": "AE",
+    "weight": 2,
+    "alternativeNames": [
+      "The United Arab Emirates"
+    ]
+  },
+  {
+    "en-GB": "Afghanistan",
+    "nl-NL": "Afghanistan",
+    "countryCode": "AF",
+    "weight": 1
+  },
+  {
+    "en-GB": "Antigua and Barbuda",
+    "nl-NL": "Antigua en Barbuda",
+    "countryCode": "AG",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Anguilla",
+    "nl-NL": "Anguilla",
+    "countryCode": "AI",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Albania",
+    "nl-NL": "Albanië",
+    "countryCode": "AL",
+    "weight": 1
+  },
+  {
+    "en-GB": "Armenia",
+    "nl-NL": "Armenië",
+    "countryCode": "AM",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Angola",
+    "nl-NL": "Angola",
+    "countryCode": "AO",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Antarctica",
+    "nl-NL": "Antarctica",
+    "countryCode": "AQ",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Argentina",
+    "nl-NL": "Argentinië",
+    "countryCode": "AR",
+    "weight": 1
+  },
+  {
+    "en-GB": "American Samoa",
+    "nl-NL": "Amerikaans Samoa",
+    "countryCode": "AS",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Austria",
+    "nl-NL": "Oostenrijk",
+    "countryCode": "AT",
+    "weight": 1,
+    "alternativeNames": [
+      "Österreich",
+      "Osterreich",
+      "Oesterreich",
+      "Oostenrijk"
+    ]
+  },
+  {
+    "en-GB": "Australia",
+    "nl-NL": "Australië",
+    "countryCode": "AU",
+    "weight": 1.5
+  },
+  {
+    "en-GB": "Aruba",
+    "nl-NL": "Aruba",
+    "countryCode": "AW",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Åland Islands",
+    "nl-NL": "Åland Eilanden",
+    "countryCode": "AX",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Aaland"
+    ]
+  },
+  {
+    "en-GB": "Azerbaijan",
+    "nl-NL": "Azerbeidzjan",
+    "countryCode": "AZ",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Bosnia and Herzegovina",
+    "nl-NL": "Bosnië en Herzegovina",
+    "countryCode": "BA",
+    "weight": 1,
+    "alternativeNames": [
+      "Bosnië-Herzegovina"
+    ]
+  },
+  {
+    "en-GB": "Barbados",
+    "nl-NL": "Barbados",
+    "countryCode": "BB",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Bangladesh",
+    "nl-NL": "Bangladesh",
+    "countryCode": "BD",
+    "weight": 2
+  },
+  {
+    "en-GB": "Belgium",
+    "nl-NL": "België",
+    "countryCode": "BE",
+    "weight": 1.5,
+    "alternativeNames": [
+      "België",
+      "Belgie",
+      "Belgien",
+      "Belgique"
+    ]
+  },
+  {
+    "en-GB": "Burkina Faso",
+    "nl-NL": "Burkina Faso",
+    "countryCode": "BF",
+    "weight": 1
+  },
+  {
+    "en-GB": "Bulgaria",
+    "nl-NL": "Bulgarije",
+    "countryCode": "BG",
+    "weight": 1
+  },
+  {
+    "en-GB": "Bahrain",
+    "nl-NL": "Bahrein",
+    "countryCode": "BH",
+    "weight": 1
+  },
+  {
+    "en-GB": "Burundi",
+    "nl-NL": "Burundi",
+    "countryCode": "BI",
+    "weight": 1
+  },
+  {
+    "en-GB": "Benin",
+    "nl-NL": "Benin",
+    "countryCode": "BJ",
+    "weight": 1
+  },
+  {
+    "en-GB": "Saint Barthélemy",
+    "nl-NL": "Saint-Barthélemy",
+    "countryCode": "BL",
+    "weight": 1,
+    "alternativeNames": [
+      "St. Barthelemy",
+      "St Barthelemy",
+      "Barthelemy",
+      "Sint Bartholomeus",
+      "Sint-Bartholomeus"
+    ]
+  },
+  {
+    "en-GB": "Bermuda",
+    "nl-NL": "Bermuda",
+    "countryCode": "BM",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Brunei",
+    "nl-NL": "Brunei",
+    "countryCode": "BN",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Brunei Darussalam"
+    ]
+  },
+  {
+    "en-GB": "Bolivia",
+    "nl-NL": "Bolivia",
+    "countryCode": "BO",
+    "weight": 1
+  },
+  {
+    "en-GB": "Bonaire, Sint Eustatius and Saba",
+    "nl-NL": "Bonaire, Sint Eustatius en Saba",
+    "countryCode": "BQ",
+    "weight": 0.5,
+    "alternativeNames": [
+      "St. Eustatius",
+      "St Eustatius",
+      "Eustatius",
+      "Sint Eustatius",
+      "Saba"
+    ]
+  },
+  {
+    "en-GB": "Brazil",
+    "nl-NL": "Brazilië",
+    "countryCode": "BR",
+    "weight": 2,
+    "alternativeNames": [
+      "Brasil"
+    ]
+  },
+  {
+    "en-GB": "The Bahamas",
+    "nl-NL": "Bahama's",
+    "countryCode": "BS",
+    "weight": 1,
+    "alternativeNames": [
+      "Bahamas",
+      "De Bahama's"
+    ]
+  },
+  {
+    "en-GB": "Bhutan",
+    "nl-NL": "Bhutan",
+    "countryCode": "BT",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Bouvet Island",
+    "nl-NL": "Bouveteiland",
+    "countryCode": "BV",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Botswana",
+    "nl-NL": "Botswana",
+    "countryCode": "BW",
+    "weight": 1
+  },
+  {
+    "en-GB": "Belarus",
+    "nl-NL": "Wit-Rusland",
+    "countryCode": "BY",
+    "weight": 1,
+    "alternativeNames": [
+      "Wit Rusland"
+    ]
+  },
+  {
+    "en-GB": "Belize",
+    "nl-NL": "Belize",
+    "countryCode": "BZ",
+    "weight": 1
+  },
+  {
+    "en-GB": "Canada",
+    "nl-NL": "Canada",
+    "countryCode": "CA",
+    "weight": 2
+  },
+  {
+    "en-GB": "Cocos (Keeling) Islands",
+    "nl-NL": "Cocoseilanden",
+    "countryCode": "CC",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Cocos Islands",
+      "The Cocos Islands"
+    ]
+  },
+  {
+    "en-GB": "Congo (Democratic Republic)",
+    "nl-NL": "Congo (Democratische Republiek)",
+    "countryCode": "CD",
+    "weight": 1.5,
+    "alternativeNames": [
+      "Congo",
+      "DRC",
+      "République démocratique du Congo",
+      "Democratic Republic of the Congo",
+      "Kinshasa",
+      "Democratische Republiek"
+    ]
+  },
+  {
+    "en-GB": "Central African Republic",
+    "nl-NL": "Centraal-Afrikaanse Republiek",
+    "countryCode": "CF",
+    "weight": 1,
+    "alternativeNames": [
+      "De Centraal Afrikaanse Republiek",
+      "The Central African Republic",
+      "De Centraal Afrikaanse Republiek"
+    ]
+  },
+  {
+    "en-GB": "Congo",
+    "nl-NL": "Congo (Republiek)",
+    "countryCode": "CG",
+    "weight": 1,
+    "alternativeNames": [
+      "The Congo",
+      "Brazzaville"
+    ]
+  },
+  {
+    "en-GB": "Switzerland",
+    "nl-NL": "Zwitserland",
+    "countryCode": "CH",
+    "weight": 2,
+    "alternativeNames": [
+      "Schweiz",
+      "Suisse"
+    ]
+  },
+  {
+    "en-GB": "Ivory Coast",
+    "nl-NL": "Ivoorkust",
+    "countryCode": "CI",
+    "weight": 1,
+    "alternativeNames": [
+      "Côte d'Ivoire",
+      "Republic de Côte d'Ivoire"
+    ]
+  },
+  {
+    "en-GB": "Cook Islands",
+    "nl-NL": "Cookeilanden",
+    "countryCode": "CK",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Chile",
+    "nl-NL": "Chili",
+    "countryCode": "CL",
+    "weight": 1
+  },
+  {
+    "en-GB": "Cameroon",
+    "nl-NL": "Kameroen",
+    "countryCode": "CM",
+    "weight": 1
+  },
+  {
+    "en-GB": "China",
+    "nl-NL": "China",
+    "countryCode": "CN",
+    "weight": 3
+  },
+  {
+    "en-GB": "Colombia",
+    "nl-NL": "Colombia",
+    "countryCode": "CO",
+    "weight": 1.5
+  },
+  {
+    "en-GB": "Costa Rica",
+    "nl-NL": "Costa Rica",
+    "countryCode": "CR",
+    "weight": 1
+  },
+  {
+    "en-GB": "Cuba",
+    "nl-NL": "Cuba",
+    "countryCode": "CU",
+    "weight": 1
+  },
+  {
+    "en-GB": "Cabo Verde",
+    "nl-NL": "Kaapverdië",
+    "countryCode": "CV",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Kaapverdische Eilanden"
+    ]
+  },
+  {
+    "en-GB": "Curaçao",
+    "nl-NL": "Curaçao",
+    "countryCode": "CW",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Christmas Island",
+    "nl-NL": "Christmaseiland",
+    "countryCode": "CX",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Cyprus",
+    "nl-NL": "Cyprus",
+    "countryCode": "CY",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Czech Republic",
+    "nl-NL": "Tsjechië",
+    "countryCode": "CZ",
+    "weight": 1
+  },
+  {
+    "en-GB": "Germany",
+    "nl-NL": "Duitsland",
+    "countryCode": "DE",
+    "weight": 3,
+    "alternativeNames": [
+      "Deutschland"
+    ]
+  },
+  {
+    "en-GB": "Djibouti",
+    "nl-NL": "Djibouti",
+    "countryCode": "DJ",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Denmark",
+    "nl-NL": "Denemarken",
+    "countryCode": "DK",
+    "weight": 1,
+    "alternativeNames": [
+      "Danmark"
+    ]
+  },
+  {
+    "en-GB": "Dominica",
+    "nl-NL": "Dominica",
+    "countryCode": "DM",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Dominique"
+    ]
+  },
+  {
+    "en-GB": "Dominican Republic",
+    "nl-NL": "Dominicaanse Republiek (de)",
+    "countryCode": "DO",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Dominicaanse Republiek"
+    ]
+  },
+  {
+    "en-GB": "Algeria",
+    "nl-NL": "Algerije",
+    "countryCode": "DZ",
+    "weight": 1.5
+  },
+  {
+    "en-GB": "Ecuador",
+    "nl-NL": "Ecuador",
+    "countryCode": "EC",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Estonia",
+    "nl-NL": "Estland",
+    "countryCode": "EE",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Egypt",
+    "nl-NL": "Egypte",
+    "countryCode": "EG",
+    "weight": 1.5
+  },
+  {
+    "en-GB": "Western Sahara",
+    "nl-NL": "Westelijke Sahara",
+    "countryCode": "EH",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Eritrea",
+    "nl-NL": "Eritrea",
+    "countryCode": "ER",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Spain",
+    "nl-NL": "Spanje",
+    "countryCode": "ES",
+    "weight": 2,
+    "alternativeNames": [
+      "España"
+    ]
+  },
+  {
+    "en-GB": "Ethiopia",
+    "nl-NL": "Ethiopië",
+    "countryCode": "ET",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Finland",
+    "nl-NL": "Finland",
+    "countryCode": "FI",
+    "weight": 1
+  },
+  {
+    "en-GB": "Fiji",
+    "nl-NL": "Fiji",
+    "countryCode": "FJ",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Falkland Islands",
+    "nl-NL": "Falklandeilanden",
+    "countryCode": "FK",
+    "weight": 0.5,
+    "alternativeNames": [
+      "The Falkland Islands"
+    ]
+  },
+  {
+    "en-GB": "Micronesia",
+    "nl-NL": "Micronesië",
+    "countryCode": "FM",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Faroe Islands",
+    "nl-NL": "Faeröer",
+    "countryCode": "FO",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Faroër Eilanden",
+      "Faroer",
+      "The Faroe Islands"
+    ]
+  },
+  {
+    "en-GB": "France",
+    "nl-NL": "Frankrijk",
+    "countryCode": "FR",
+    "weight": 2.5
+  },
+  {
+    "en-GB": "Gabon",
+    "nl-NL": "Gabon",
+    "countryCode": "GA",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "United Kingdom",
+    "nl-NL": "Verenigd Koninkrijk",
+    "countryCode": "GB",
+    "weight": 2.5,
+    "alternativeNames": [
+      "UK",
+      "England",
+      "Engeland",
+      "Great-Britain",
+      "Groot-Brittannië",
+      "Wales",
+      "Schotland",
+      "Scotland",
+      "Northern Ireland",
+      "Noord-Ierland"
+    ]
+  },
+  {
+    "en-GB": "Grenada",
+    "nl-NL": "Grenada",
+    "countryCode": "GD",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Georgia",
+    "nl-NL": "Georgië",
+    "countryCode": "GE",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "French Guiana",
+    "nl-NL": "Frans Guyana",
+    "countryCode": "GF",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Guyana"
+    ]
+  },
+  {
+    "en-GB": "Guernsey",
+    "nl-NL": "Guernsey",
+    "countryCode": "GG",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Ghana",
+    "nl-NL": "Ghana",
+    "countryCode": "GH",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Gibraltar",
+    "nl-NL": "Gibraltar",
+    "countryCode": "GI",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Greenland",
+    "nl-NL": "Groenland",
+    "countryCode": "GL",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Gambia",
+    "nl-NL": "Gambia",
+    "countryCode": "GM",
+    "weight": 0.5,
+    "alternativeNames": [
+      "The Gambia"
+    ]
+  },
+  {
+    "en-GB": "Guinea",
+    "nl-NL": "Guinee",
+    "countryCode": "GN",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Guadeloupe",
+    "nl-NL": "Guadeloupe",
+    "countryCode": "GP",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Equatorial Guinea",
+    "nl-NL": "Equatoriaal-Guinea",
+    "countryCode": "GQ",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Guinea"
+    ]
+  },
+  {
+    "en-GB": "Greece",
+    "nl-NL": "Griekenland",
+    "countryCode": "GR",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "South Georgia and the South Sandwich Islands",
+    "nl-NL": "Zuid-Georgia en de Zuidelijke Sandwicheilanden",
+    "countryCode": "GS",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Guatemala",
+    "nl-NL": "Guatemala",
+    "countryCode": "GT",
+    "weight": 1
+  },
+  {
+    "en-GB": "Guam",
+    "nl-NL": "Guam",
+    "countryCode": "GU",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Guinea-Bissau",
+    "nl-NL": "Guinee-Bissau",
+    "countryCode": "GW",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Guyana",
+    "nl-NL": "Guyana",
+    "countryCode": "GY",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Hong Kong",
+    "nl-NL": "Hong Kong",
+    "countryCode": "HK",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Heard Island and McDonald Islands",
+    "nl-NL": "Heard en McDonaldeilanden",
+    "countryCode": "HM",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Honduras",
+    "nl-NL": "Honduras",
+    "countryCode": "HN",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Croatia",
+    "nl-NL": "Kroatië",
+    "countryCode": "HR",
+    "weight": 1,
+    "alternativeNames": [
+      "Hrvatska"
+    ]
+  },
+  {
+    "en-GB": "Haiti",
+    "nl-NL": "Haïti",
+    "countryCode": "HT",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Hungary",
+    "nl-NL": "Hongarije",
+    "countryCode": "HU",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Indonesia",
+    "nl-NL": "Indonesië",
+    "countryCode": "ID",
+    "weight": 2
+  },
+  {
+    "en-GB": "Ireland",
+    "nl-NL": "Ierland",
+    "countryCode": "IE",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Israel",
+    "nl-NL": "Israël",
+    "countryCode": "IL",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Isle of Man",
+    "nl-NL": "Isle of Man",
+    "countryCode": "IM",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Man"
+    ]
+  },
+  {
+    "en-GB": "India",
+    "nl-NL": "India",
+    "countryCode": "IN",
+    "weight": 2.5
+  },
+  {
+    "en-GB": "British Indian Ocean Territory",
+    "nl-NL": "Brits Indische Oceaanterritorium",
+    "countryCode": "IO",
+    "weight": 0.5,
+    "alternativeNames": [
+      "BIOT"
+    ]
+  },
+  {
+    "en-GB": "Iraq",
+    "nl-NL": "Irak",
+    "countryCode": "IQ",
+    "weight": 1.5
+  },
+  {
+    "en-GB": "Iran",
+    "nl-NL": "Iran",
+    "countryCode": "IR",
+    "weight": 1.5,
+    "alternativeNames": [
+      "Islamic republic of Iran"
+    ]
+  },
+  {
+    "en-GB": "Iceland",
+    "nl-NL": "IJsland",
+    "countryCode": "IS",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Ísland"
+    ]
+  },
+  {
+    "en-GB": "Italy",
+    "nl-NL": "Italië",
+    "countryCode": "IT",
+    "weight": 2,
+    "alternativeNames": [
+      "Italia"
+    ]
+  },
+  {
+    "en-GB": "Jersey",
+    "nl-NL": "Jersey",
+    "countryCode": "JE",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Jamaica",
+    "nl-NL": "Jamaica",
+    "countryCode": "JM",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Jordan",
+    "nl-NL": "Jordanië",
+    "countryCode": "JO",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Japan",
+    "nl-NL": "Japan",
+    "countryCode": "JP",
+    "weight": 2.5
+  },
+  {
+    "en-GB": "Kenya",
+    "nl-NL": "Kenia",
+    "countryCode": "KE",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Kyrgyzstan",
+    "nl-NL": "Kirgizië",
+    "countryCode": "KG",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Cambodia",
+    "nl-NL": "Cambodja",
+    "countryCode": "KH",
+    "weight": 1
+  },
+  {
+    "en-GB": "Kiribati",
+    "nl-NL": "Kiribati",
+    "countryCode": "KI",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Comoros",
+    "nl-NL": "Comoren",
+    "countryCode": "KM",
+    "weight": 0.5,
+    "alternativeNames": [
+      "The Comores",
+      "De Comoren"
+    ]
+  },
+  {
+    "en-GB": "Saint Kitts and Nevis",
+    "nl-NL": "Saint Kitts en Nevis",
+    "countryCode": "KN",
+    "weight": 1,
+    "alternativeNames": [
+      "St. Kitts and Nevis",
+      "St Kitts and Nevis",
+      "Saint Kitts and Nevis",
+      "Kitts and Nevis"
+    ]
+  },
+  {
+    "en-GB": "North Korea",
+    "nl-NL": "Noord Korea",
+    "countryCode": "KP",
+    "weight": 1,
+    "alternativeNames": [
+      "Korea",
+      "Democratic People's Republic of Korea"
+    ]
+  },
+  {
+    "en-GB": "South Korea",
+    "nl-NL": "Zuid Korea",
+    "countryCode": "KR",
+    "weight": 2,
+    "alternativeNames": [
+      "Korea",
+      "the Republic of Korea"
+    ]
+  },
+  {
+    "en-GB": "Kuwait",
+    "nl-NL": "Koeweit",
+    "countryCode": "KW",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Cayman Islands",
+    "nl-NL": "Kaaimaneilanden",
+    "countryCode": "KY",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Kazakhstan",
+    "nl-NL": "Kazachstan",
+    "countryCode": "KZ",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Laos",
+    "nl-NL": "Laos",
+    "countryCode": "LA",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Lao People's Democratic Republic",
+      "The Lao People's Democratic Republic"
+    ]
+  },
+  {
+    "en-GB": "Lebanon",
+    "nl-NL": "Libanon",
+    "countryCode": "LB",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Saint Lucia",
+    "nl-NL": "Saint Lucia",
+    "countryCode": "LC",
+    "weight": 1,
+    "alternativeNames": [
+      "St. Lucia",
+      "St Lucia",
+      "Lucia",
+      "Sint Lucia"
+    ]
+  },
+  {
+    "en-GB": "Liechtenstein",
+    "nl-NL": "Liechtenstein",
+    "countryCode": "LI",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Sri Lanka",
+    "nl-NL": "Sri Lanka",
+    "countryCode": "LK",
+    "weight": 1
+  },
+  {
+    "en-GB": "Liberia",
+    "nl-NL": "Liberia",
+    "countryCode": "LR",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Lesotho",
+    "nl-NL": "Lesotho",
+    "countryCode": "LS",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Lithuania",
+    "nl-NL": "Litouwen",
+    "countryCode": "LT",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Luxembourg",
+    "nl-NL": "Luxemburg",
+    "countryCode": "LU",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Latvia",
+    "nl-NL": "Letland",
+    "countryCode": "LV",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Latvija"
+    ]
+  },
+  {
+    "en-GB": "Libya",
+    "nl-NL": "Libië",
+    "countryCode": "LY",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Morocco",
+    "nl-NL": "Marokko",
+    "countryCode": "MA",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Monaco",
+    "nl-NL": "Monaco",
+    "countryCode": "MC",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Moldova",
+    "nl-NL": "Moldavië",
+    "countryCode": "MD",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Republic of Moldova"
+    ]
+  },
+  {
+    "en-GB": "Montenegro",
+    "nl-NL": "Montenegro",
+    "countryCode": "ME",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Saint Martin (French Part)",
+    "nl-NL": "Sint-Maarten (Franse Antillen)",
+    "countryCode": "MF",
+    "weight": 1,
+    "alternativeNames": [
+      "St. Martin",
+      "St Martin",
+      "Sint Maarten",
+      "Maarten"
+    ]
+  },
+  {
+    "en-GB": "Madagascar",
+    "nl-NL": "Madagascar",
+    "countryCode": "MG",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Marshall Islands",
+    "nl-NL": "Marshalleilanden",
+    "countryCode": "MH",
+    "weight": 0.5,
+    "alternativeNames": [
+      "The Marshall Islands"
+    ]
+  },
+  {
+    "en-GB": "North Macedonia",
+    "nl-NL": "Noord-Macedonië",
+    "countryCode": "MK",
+    "weight": 1.5,
+    "alternativeNames": [
+      "Macedonia",
+      "North-Macedonia",
+      "Northern Macedonia",
+      "Noord Macedonie"
+    ]
+  },
+  {
+    "en-GB": "Mali",
+    "nl-NL": "Mali",
+    "countryCode": "ML",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Myanmar",
+    "nl-NL": "Myanmar",
+    "countryCode": "MM",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Bhirma"
+    ]
+  },
+  {
+    "en-GB": "Mongolia",
+    "nl-NL": "Mongolië",
+    "countryCode": "MN",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Macao",
+    "nl-NL": "Macao",
+    "countryCode": "MO",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Northern Mariana Islands",
+    "nl-NL": "Noordelijke Marianen",
+    "countryCode": "MP",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Martinique",
+    "nl-NL": "Martinique",
+    "countryCode": "MQ",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Mauritania",
+    "nl-NL": "Mauritanië",
+    "countryCode": "MR",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Montserrat",
+    "nl-NL": "Montserrat",
+    "countryCode": "MS",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Malta",
+    "nl-NL": "Malta",
+    "countryCode": "MT",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Mauritius",
+    "nl-NL": "Mauritius",
+    "countryCode": "MU",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Maldives",
+    "nl-NL": "Malediven",
+    "countryCode": "MV",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Malawi",
+    "nl-NL": "Malawi",
+    "countryCode": "MW",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Mexico",
+    "nl-NL": "Mexico",
+    "countryCode": "MX",
+    "weight": 1
+  },
+  {
+    "en-GB": "Malaysia",
+    "nl-NL": "Maleisië",
+    "countryCode": "MY",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Maleisië",
+      "Maleisie"
+    ]
+  },
+  {
+    "en-GB": "Mozambique",
+    "nl-NL": "Mozambique",
+    "countryCode": "MZ",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Moçambique"
+    ]
+  },
+  {
+    "en-GB": "Namibia",
+    "nl-NL": "Namibië",
+    "countryCode": "NA",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Namibie",
+      "Nambië"
+    ]
+  },
+  {
+    "en-GB": "New Caledonia",
+    "nl-NL": "Nieuw-Caledonië",
+    "countryCode": "NC",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Niger",
+    "nl-NL": "Niger",
+    "countryCode": "NE",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Norfolk Island",
+    "nl-NL": "Norfolk",
+    "countryCode": "NF",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Nigeria",
+    "nl-NL": "Nigeria",
+    "countryCode": "NG",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Nicaragua",
+    "nl-NL": "Nicaragua",
+    "countryCode": "NI",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Netherlands",
+    "nl-NL": "Nederland",
+    "countryCode": "NL",
+    "weight": 5,
+    "alternativeNames": [
+      "The Netherlands",
+      "Holland"
+    ]
+  },
+  {
+    "en-GB": "Norway",
+    "nl-NL": "Noorwegen",
+    "countryCode": "NO",
+    "weight": 2,
+    "alternativeNames": [
+      "Norge"
+    ]
+  },
+  {
+    "en-GB": "Nepal",
+    "nl-NL": "Nepal",
+    "countryCode": "NP",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Nauru",
+    "nl-NL": "Nauru",
+    "countryCode": "NR",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Niue",
+    "nl-NL": "Niue",
+    "countryCode": "NU",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "New Zealand",
+    "nl-NL": "Nieuw-Zeeland",
+    "countryCode": "NZ",
+    "weight": 1
+  },
+  {
+    "en-GB": "Oman",
+    "nl-NL": "Oman",
+    "countryCode": "OM",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Panama",
+    "nl-NL": "Panama",
+    "countryCode": "PA",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Peru",
+    "nl-NL": "Peru",
+    "countryCode": "PE",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "French Polynesia",
+    "nl-NL": "Frans-Polynesië",
+    "countryCode": "PF",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Papua New Guinea",
+    "nl-NL": "Papoea-Nieuw-Guinea",
+    "countryCode": "PG",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Papoea Nieuw Guinea",
+      "Nieuw Guinea",
+      "New Guinea",
+      "Guinea"
+    ]
+  },
+  {
+    "en-GB": "Philippines",
+    "nl-NL": "Filippijnen",
+    "countryCode": "PH",
+    "weight": 0.5,
+    "alternativeNames": [
+      "The Philippines",
+      "De Filippijnen"
+    ]
+  },
+  {
+    "en-GB": "Pakistan",
+    "nl-NL": "Pakistan",
+    "countryCode": "PK",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Poland",
+    "nl-NL": "Polen",
+    "countryCode": "PL",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Polska"
+    ]
+  },
+  {
+    "en-GB": "Saint Pierre and Miquelon",
+    "nl-NL": "Saint-Pierre en Miquelon",
+    "countryCode": "PM",
+    "weight": 1,
+    "alternativeNames": [
+      "St. Pierre and Miguelon",
+      "St Pierre and Miguelon",
+      "Sint Pierre and Miguelon"
+    ]
+  },
+  {
+    "en-GB": "Pitcairn",
+    "nl-NL": "Pitcairn",
+    "countryCode": "PN",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Puerto Rico",
+    "nl-NL": "Puerto Rico",
+    "countryCode": "PR",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Palestine",
+    "nl-NL": "Palestina",
+    "countryCode": "PS",
+    "weight": 1
+  },
+  {
+    "en-GB": "Portugal",
+    "nl-NL": "Portugal",
+    "countryCode": "PT",
+    "weight": 1
+  },
+  {
+    "en-GB": "Palau",
+    "nl-NL": "Palau",
+    "countryCode": "PW",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Paraguay",
+    "nl-NL": "Paraguay",
+    "countryCode": "PY",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Qatar",
+    "nl-NL": "Qatar",
+    "countryCode": "QA",
+    "weight": 1
+  },
+  {
+    "en-GB": "Réunion",
+    "nl-NL": "Réunion",
+    "countryCode": "RE",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Romania",
+    "nl-NL": "Roemenië",
+    "countryCode": "RO",
+    "weight": 1.25,
+    "alternativeNames": [
+      "Rumania",
+      "Roumania",
+      "România"
+    ]
+  },
+  {
+    "en-GB": "Serbia",
+    "nl-NL": "Servië",
+    "countryCode": "RS",
+    "weight": 1
+  },
+  {
+    "en-GB": "Russia",
+    "nl-NL": "Rusland",
+    "countryCode": "RU",
+    "weight": 2.5,
+    "alternativeNames": [
+      "Russian Federation"
+    ]
+  },
+  {
+    "en-GB": "Rwanda",
+    "nl-NL": "Rwanda",
+    "countryCode": "RW",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Saudi Arabia",
+    "nl-NL": "Saoedi-Arabië",
+    "countryCode": "SA",
+    "weight": 1.5,
+    "alternativeNames": [
+      "Saoedi Arabië",
+      "Arabia"
+    ]
+  },
+  {
+    "en-GB": "Solomon Islands",
+    "nl-NL": "Salomonseilanden",
+    "countryCode": "SB",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Seychelles",
+    "nl-NL": "Seychellen",
+    "countryCode": "SC",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Sudan",
+    "nl-NL": "Soedan",
+    "countryCode": "SD",
+    "weight": 1.5
+  },
+  {
+    "en-GB": "Sweden",
+    "nl-NL": "Zweden",
+    "countryCode": "SE",
+    "weight": 2,
+    "alternativeNames": [
+      "Sverige"
+    ]
+  },
+  {
+    "en-GB": "Singapore",
+    "nl-NL": "Singapore",
+    "countryCode": "SG",
+    "weight": 1.5
+  },
+  {
+    "en-GB": "Saint Helena",
+    "nl-NL": "Sint-Helena",
+    "countryCode": "SH",
+    "weight": 1,
+    "alternativeNames": [
+      "St. Helena",
+      "St Helena",
+      "Helena",
+      "Sint Helena",
+      "Ascension",
+      "Tristan da Cunha"
+    ]
+  },
+  {
+    "en-GB": "Slovenia",
+    "nl-NL": "Slovenië",
+    "countryCode": "SI",
+    "weight": 1,
+    "alternativeNames": [
+      "Slovenija"
+    ]
+  },
+  {
+    "en-GB": "Svalbard and Jan Mayen",
+    "nl-NL": "Spitsbergen en Jan Mayen",
+    "countryCode": "SJ",
+    "weight": 1,
+    "alternativeNames": [
+      "Jan Mayen"
+    ]
+  },
+  {
+    "en-GB": "Slovakia",
+    "nl-NL": "Slowakije",
+    "countryCode": "SK",
+    "weight": 1
+  },
+  {
+    "en-GB": "Sierra Leone",
+    "nl-NL": "Sierra Leone",
+    "countryCode": "SL",
+    "weight": 1
+  },
+  {
+    "en-GB": "San Marino",
+    "nl-NL": "San Marino",
+    "countryCode": "SM",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Senegal",
+    "nl-NL": "Senegal",
+    "countryCode": "SN",
+    "weight": 1
+  },
+  {
+    "en-GB": "Somalia",
+    "nl-NL": "Somalië",
+    "countryCode": "SO",
+    "weight": 1
+  },
+  {
+    "en-GB": "Suriname",
+    "nl-NL": "Suriname",
+    "countryCode": "SR",
+    "weight": 1
+  },
+  {
+    "en-GB": "South Sudan",
+    "nl-NL": "Zuid Soedan",
+    "countryCode": "SS",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Sao Tome and Principe",
+    "nl-NL": "Sao Tomé en Principe",
+    "countryCode": "ST",
+    "weight": 1,
+    "alternativeNames": [
+      "Tome and Principe",
+      "Principe"
+    ]
+  },
+  {
+    "en-GB": "El Salvador",
+    "nl-NL": "El Salvador",
+    "countryCode": "SV",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Sint Maarten (Dutch Part)",
+    "nl-NL": "Sint Maarten (Nederlands deel)",
+    "countryCode": "SX",
+    "weight": 1,
+    "alternativeNames": [
+      "St. Maarten",
+      "St Maarten",
+      "Maarten"
+    ]
+  },
+  {
+    "en-GB": "Syria",
+    "nl-NL": "Syrië",
+    "countryCode": "SY",
+    "weight": 1.5,
+    "alternativeNames": [
+      "Syrian Arab Republic"
+    ]
+  },
+  {
+    "en-GB": "Eswatini",
+    "nl-NL": "Eswatini",
+    "countryCode": "SZ",
+    "weight": 1,
+    "alternativeNames": [
+      "Swaziland"
+    ]
+  },
+  {
+    "en-GB": "Turks and Caicos Islands",
+    "nl-NL": "Turks- en Caicoseilanden",
+    "countryCode": "TC",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Chad",
+    "nl-NL": "Tsjaad",
+    "countryCode": "TD",
+    "weight": 1,
+    "alternativeNames": [
+      "Tchad"
+    ]
+  },
+  {
+    "en-GB": "French Southern Territories",
+    "nl-NL": "Franse Zuidelijke Gebieden",
+    "countryCode": "TF",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Togo",
+    "nl-NL": "Togo",
+    "countryCode": "TG",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Thailand",
+    "nl-NL": "Thailand",
+    "countryCode": "TH",
+    "weight": 2
+  },
+  {
+    "en-GB": "Tajikistan",
+    "nl-NL": "Tadzjikistan",
+    "countryCode": "TJ",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Tokelau",
+    "nl-NL": "Tokelau",
+    "countryCode": "TK",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Timor-Leste",
+    "nl-NL": "Timor-Leste",
+    "countryCode": "TL",
+    "weight": 1,
+    "alternativeNames": [
+      "East Timor",
+      "Oost Timor"
+    ]
+  },
+  {
+    "en-GB": "Turkmenistan",
+    "nl-NL": "Turkmenistan",
+    "countryCode": "TM",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Tunisia",
+    "nl-NL": "Tunesië",
+    "countryCode": "TN",
+    "weight": 1
+  },
+  {
+    "en-GB": "Tonga",
+    "nl-NL": "Tonga",
+    "countryCode": "TO",
+    "weight": 1
+  },
+  {
+    "en-GB": "Turkey",
+    "nl-NL": "Turkije",
+    "countryCode": "TR",
+    "weight": 2
+  },
+  {
+    "en-GB": "Trinidad and Tobago",
+    "nl-NL": "Trinidad en Tobago",
+    "countryCode": "TT",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Tobago"
+    ]
+  },
+  {
+    "en-GB": "Tuvalu",
+    "nl-NL": "Tuvalu",
+    "countryCode": "TV",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Taiwan",
+    "nl-NL": "Taiwan",
+    "countryCode": "TW",
+    "weight": 2
+  },
+  {
+    "en-GB": "Tanzania",
+    "nl-NL": "Tanzania",
+    "countryCode": "TZ",
+    "weight": 1
+  },
+  {
+    "en-GB": "Ukraine",
+    "nl-NL": "Oekraïne",
+    "countryCode": "UA",
+    "weight": 1.5
+  },
+  {
+    "en-GB": "Uganda",
+    "nl-NL": "Oeganda",
+    "countryCode": "UG",
+    "weight": 1
+  },
+  {
+    "en-GB": "United States Minor Outlying Islands",
+    "nl-NL": "Amerikaanse Kleinere Afgelegen Eilanden",
+    "countryCode": "UM",
+    "weight": 0.2,
+    "alternativeNames": [
+      "Minor"
+    ]    
+  },
+  {
+    "en-GB": "United States",
+    "nl-NL": "Verenigde Staten",
+    "countryCode": "US",
+    "weight": 3.5,
+    "alternativeNames": [
+      "USA",
+      "Amerika",
+      "America",
+      "States"
+    ]
+  },
+  {
+    "en-GB": "Uruguay",
+    "nl-NL": "Uruguay",
+    "countryCode": "UY",
+    "weight": 1
+  },
+  {
+    "en-GB": "Uzbekistan",
+    "nl-NL": "Oezbekistan",
+    "countryCode": "UZ",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Vatican City",
+    "nl-NL": "Vaticaanstad",
+    "countryCode": "VA",
+    "weight": 0.5,
+    "alternativeNames": [
+      "Vatican City",
+      "Holy See",
+      "Città del Vaticano"
+    ]
+  },
+  {
+    "en-GB": "Saint Vincent and the Grenadines",
+    "nl-NL": "Saint Vincent en de Grenadines",
+    "countryCode": "VC",
+    "weight": 0.5,
+    "alternativeNames": [
+      "St. Vincent and the Grenadines",
+      "St Vincent and the Grenadines",
+      "Vincent and the Grenadines",
+      "Grenadines"
+    ]
+  },
+  {
+    "en-GB": "Venezuela",
+    "nl-NL": "Venezuela",
+    "countryCode": "VE",
+    "weight": 1
+  },
+  {
+    "en-GB": "British Virgin Islands",
+    "nl-NL": "Britse Maagdeneilanden",
+    "countryCode": "VG",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "United States Virgin Islands",
+    "nl-NL": "Amerikaanse Maagdeneilanden",
+    "countryCode": "VI",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Vietnam",
+    "nl-NL": "Vietnam",
+    "countryCode": "VN",
+    "weight": 2,
+    "alternativeNames": [
+      "Việt Nam"
+    ]
+  },
+  {
+    "en-GB": "Vanuatu",
+    "nl-NL": "Vanuatu",
+    "countryCode": "VU",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Wallis and Futuna",
+    "nl-NL": "Wallis en Futuna",
+    "countryCode": "WF",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Samoa",
+    "nl-NL": "Samoa",
+    "countryCode": "WS",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "Yemen",
+    "nl-NL": "Jemen",
+    "countryCode": "YE",
+    "weight": 1
+  },
+  {
+    "en-GB": "Mayotte",
+    "nl-NL": "Mayotte",
+    "countryCode": "YT",
+    "weight": 0.5
+  },
+  {
+    "en-GB": "South Africa",
+    "nl-NL": "Zuid-Afrika",
+    "countryCode": "ZA",
+    "weight": 2,
+    "alternativeNames": [
+      "Suid-Afrika"
+    ]
+  },
+  {
+    "en-GB": "Zambia",
+    "nl-NL": "Zambia",
+    "countryCode": "ZM",
+    "weight": 1
+  },
+  {
+    "en-GB": "Zimbabwe",
+    "nl-NL": "Zimbabwe",
+    "countryCode": "ZW",
+    "weight": 1
+  }
+]

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<style>
+  /* Reset and base styles */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+  }
+
+  h2 {
+font-size: 20px;
+line-height: 20px;
+font-weight: 700;
+color: #0f172a;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #64748b;
+  }
+
+  p strong {
+    font-weight: 600;
+    color: #0f172a;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    max-width: 400px;
+  }
+
+  /* Form and autocomplete styles */
+  .autocomplete {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  input, button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  input {
+    background-color: #fff;
+    color: #0f172a;
+    border: 1px solid #afafaf;
+    width: 100%;
+  }
+
+  input:focus {
+    border-color: #2563eb;
+  }
+
+  button {
+    background-color: #2563eb;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    margin-left: 8px;
+  }
+
+  button:hover {
+    background-color: #1e40af;
+  }
+
+  button:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+  }
+
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #afafaf;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .autocomplete-items div {
+    padding: 12px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #afafaf; 
+  }
+
+  .autocomplete-items div:last-child {
+    border-bottom: none;
+  }
+
+  .autocomplete-items div:hover,
+  .autocomplete-active {
+    background-color: #2563eb !important; 
+    color: #fff; 
+  }
+
+  .autocomplete-items .no-results {
+    padding: 12px;
+    color: #64748b;
+    background-color: #f9f9f9;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+  <h2>Autocomplete</h2>
+ 
+ <p>Pick a display language:</p> 
+  <select id="languageToggle">
+    <option value="en-GB">English</option>
+    <option value="nl-NL">Dutch</option>
+  </select>
+  <br><br>
+  <p><strong>Country:</strong><br>Search for country code or country name.</p>
+
+  <form autocomplete="off" action="javascript:void(0)" onsubmit="submitForm()">
+    <div class="autocomplete" style="width:300px;">
+      <input id="countrySelector" type="search" name="country" placeholder="Country" data-1p-ignore>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <br>
+  <div id="submissionResult" style="display: none; background-color: #bfdbfe; padding: 12px; margin-top: 8px;"></div>
+</div>
+</div>
+  <script>
+var currentLanguage = "en-GB";
+
+document.getElementById("languageToggle").addEventListener("change", function() {
+  currentLanguage = this.value;
+  updateAutocomplete();
+});
+
+function normalizeString(str) {
+  return str
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[-\s]/g, "")
+    .toLowerCase();
+}
+
+function autocomplete(inp, countryData, language) {
+  var currentFocus;
+  inp.addEventListener("input", function(e) {
+    var a, b, val = this.value;
+    closeAllLists();
+    if (!val) { return false; }
+    currentFocus = -1;
+    a = document.createElement("DIV");
+    a.setAttribute("id", this.id + "autocomplete-list");
+    a.setAttribute("class", "autocomplete-items");
+    this.parentNode.appendChild(a);
+
+    var resultsCount = 0;
+
+    const inputLength = val.length;
+    const group1 = [], group2 = [], group3 = [];
+
+    countryData.forEach(country => {
+      if (inputLength === 2 && country.countryCode.toLowerCase() === val.toLowerCase()) {
+        group1.push(country);
+      } else if (normalizeString(country['en-GB']).startsWith(normalizeString(val)) || normalizeString(country['nl-NL']).startsWith(normalizeString(val))) {
+        group2.push(country);
+      } else if ((country.alternativeNames || []).some(name => normalizeString(name).startsWith(normalizeString(val)))) {
+        group3.push(country);
+      }
+    });
+
+    [group1, group2, group3].forEach(group => {
+      group.sort((a, b) => parseFloat(b.weight) - parseFloat(a.weight));
+    });
+
+    [...group1, ...group2, ...group3].forEach(country => {
+      b = document.createElement("DIV");
+      b.textContent = country[currentLanguage];
+      b.innerHTML += "<input type='hidden' value='" + country[currentLanguage] + "'>";
+      b.addEventListener("click", function(e) {
+        inp.value = country[currentLanguage];
+        inp.setAttribute("data-country-code", country.countryCode);
+        closeAllLists();
+      });
+      a.appendChild(b);
+      resultsCount++;
+    });
+
+    if (resultsCount === 0) {
+      b = document.createElement("DIV");
+      b.setAttribute("class", "no-results");
+      b.innerHTML = "No results found";
+      a.appendChild(b);
+    } else {
+      currentFocus = 0;
+      addActive(a.getElementsByTagName("div"));
+    }
+  });
+
+  inp.addEventListener("keydown", function(e) {
+    var x = document.getElementById(this.id + "autocomplete-list");
+    if (x) x = x.getElementsByTagName("div");
+    if (e.keyCode == 40) {
+      currentFocus++;
+      addActive(x);
+    } else if (e.keyCode == 38) {
+      currentFocus--;
+      addActive(x);
+    } else if (e.keyCode == 13) {
+      e.preventDefault();
+      if (currentFocus > -1 && x) {
+        x[currentFocus].click();
+      }
+    } else if (e.keyCode == 27) {
+      closeAllLists();
+    }
+  });
+
+  inp.addEventListener("blur", function () {
+    setTimeout(function () {
+      var x = document.getElementById(inp.id + "autocomplete-list");
+      if (x) {
+        var activeItem = x.querySelector(".autocomplete-active");
+        if (activeItem) {
+          activeItem.click();
+        } else if (x.firstChild && x.firstChild.tagName === "DIV") {
+          x.firstChild.click();
+        }
+      }
+      closeAllLists();
+    }, 200);
+  });
+
+  function addActive(x) {
+  if (!x) return false;
+  removeActive(x);
+  if (currentFocus >= x.length) currentFocus = 0;
+  if (currentFocus < 0) currentFocus = x.length - 1;
+  x[currentFocus].classList.add("autocomplete-active");
+
+  // Scroll active item into view if needed
+  var activeItem = x[currentFocus];
+  var container = activeItem.parentNode;
+
+  if (activeItem.offsetTop < container.scrollTop) {
+    // If the item is above the visible area
+    container.scrollTop = activeItem.offsetTop;
+  } else if (activeItem.offsetTop + activeItem.offsetHeight > container.scrollTop + container.offsetHeight) {
+    // If the item is below the visible area
+    container.scrollTop = activeItem.offsetTop + activeItem.offsetHeight - container.offsetHeight;
+  }
+}
+
+
+  function removeActive(x) {
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+
+  function closeAllLists(elmnt) {
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+        x[i].parentNode.removeChild(x[i]);
+      }
+    }
+  }
+
+  document.addEventListener("click", function (e) {
+    if (!e.target.matches('#' + inp.id)) {
+      var x = document.getElementById(inp.id + "autocomplete-list");
+      if (x) {
+        var firstItem = x.firstChild;
+        if (firstItem && firstItem.tagName === "DIV") {
+          firstItem.click();
+        }
+      }
+      closeAllLists();
+    }
+  });
+}
+
+function updateAutocomplete() {
+  fetch("countries.json")
+    .then(response => response.json())
+    .then(data => {
+      autocomplete(document.getElementById("countrySelector"), data, currentLanguage);
+    });
+}
+
+function submitForm() {
+  var input = document.getElementById("countrySelector");
+  var countryCode = input.getAttribute("data-country-code");
+  var resultDiv = document.getElementById("submissionResult");
+  resultDiv.style.display = "block";
+
+  // Check if the input field is empty or if no country code is set
+  if (!input.value.trim() || !countryCode || countryCode.trim() === "") {
+    resultDiv.textContent = "Enter a country before submitting."; // Show "No" if input is empty or no country is selected
+  } else {
+    console.log("Selected Country Code: " + countryCode);
+    resultDiv.textContent = "You submitted: " + countryCode;
+  }
+}
+
+updateAutocomplete();
+  </script>
+</body>
+</html>
