@@ -1,7 +1,7 @@
 # Smarter Country Selector
-Many websites let users select a country from a large dropdown, [https://baymard.com/blog/drop-down-usability](which is bad for UX). Recently I encountered several issues while usability testing an autocomplete country selector. I created this prototype to address most of the issues I encountered.
+Many websites let users select a country from a large dropdown, [which is bad for UX](https://baymard.com/blog/drop-down-usability). Recently I encountered several issues while usability testing an autocomplete country selector. I created this prototype to address most of the issues I encountered.
 
-It builds upon the work that [https://www.smashingmagazine.com/2011/11/redesigning-the-country-selector/](Jamie Holst) and [https://adamsilver.io/blog/building-an-accessible-autocomplete-control/](Adam Silver) have done.
+It builds upon the work that [Jamie Holst](https://www.smashingmagazine.com/2011/11/redesigning-the-country-selector/) and [Adam Silver](https://adamsilver.io/blog/building-an-accessible-autocomplete-control/) have done.
  
 The country data is based on the ISO 3166 list and was last updated in January 2024.
 
