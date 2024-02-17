@@ -5,119 +5,128 @@
   <link rel="preconnect" href="https://rsms.me/">
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 <style>
-  /* Reset and base styles */
-  * {
-    box-sizing: border-box;
-  }
+* {
+  box-sizing: border-box;
+  
+}
 
-  body {
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-  }
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
 
-  h2 {
-font-size: 20px;
-line-height: 20px;
-font-weight: 700;
-color: #0f172a;
-  }
+h2 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #0f172a;
+}
 
-  p {
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #64748b;
-  }
+p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #64748b;
+}
 
-  p strong {
-    font-weight: 600;
-    color: #0f172a;
-  }
+p strong {
+  font-weight: 600;
+  color: #0f172a;
+}
 
-  .container {
-    display: flex;
-    justify-content: center;
-  }
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
 
-  .content {
-    max-width: 400px;
-  }
+.content {
+  max-width: 400px;
+}
 
-  /* Form and autocomplete styles */
-  .autocomplete {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-  }
+.form-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
 
-  input, button {
-    padding: 12px;
-    font-size: 16px;
-    border-radius: 4px;
-  }
 
-  input {
-    background-color: #fff;
-    color: #0f172a;
-    border: 1px solid #afafaf;
-    width: 100%;
-  }
 
-  input:focus {
-    border-color: #2563eb;
-  }
+.autocomplete {
+  flex-grow: 1; 
+  display: flex; 
+  position: relative;
 
-  button {
-    background-color: #2563eb;
-    color: #fff;
-    cursor: pointer;
-    border: 0;
-    margin-left: 8px;
-  }
+}
 
-  button:hover {
-    background-color: #1e40af;
-  }
+input {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #0f172a;
+  border: 1px solid #afafaf;
+  padding: 12px;
+  font-size: 16px;
+}
 
-  button:focus-visible {
-    outline: 2px solid #2563eb;
-    outline-offset: 2px;
-  }
+button {
+  background-color: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 16px;
+}
 
-  .autocomplete-items {
-    position: absolute;
-    border: 1px solid #afafaf;
-    z-index: 99;
-    top: 100%;
-    left: 0;
-    right: 0;
-    max-height: 400px;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
+input:focus {
+  border-color: #2563eb;
+}
 
-  .autocomplete-items div {
-    padding: 12px;
-    cursor: pointer;
-    background-color: #fff; 
-    border-bottom: 1px solid #afafaf; 
-  }
+button:hover {
+  background-color: #1e40af;
+}
 
-  .autocomplete-items div:last-child {
-    border-bottom: none;
-  }
+button:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
 
-  .autocomplete-items div:hover,
-  .autocomplete-active {
-    background-color: #2563eb !important; 
-    color: #fff; 
-  }
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #dfdfdf;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 280px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.1);
+}
 
-  .autocomplete-items .no-results {
-    padding: 12px;
-    color: #64748b;
-    background-color: #f9f9f9;
-  }
+.autocomplete-items div {
+  padding: 12px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.autocomplete-items div:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-items div:hover,
+.autocomplete-active {
+  background-color: #2563eb !important;
+  color: #fff;
+}
+
+.no-results {
+  padding: 12px;
+  color: #64748b;
+  background-color: #f9f9f9;
+}
+
 </style>
 </head>
 <body>
@@ -133,11 +142,13 @@ color: #0f172a;
   <br><br>
   <p><strong>Country:</strong><br>Search for country code or country name.</p>
 
-  <form autocomplete="off" action="javascript:void(0)" onsubmit="submitForm()">
-    <div class="autocomplete" style="width:300px;">
-      <input id="countrySelector" type="search" name="country" placeholder="Country" data-1p-ignore>
+  <form action="javascript:void(0)" onsubmit="submitForm()" autocomplete="off" class="form-flex-container">
+
+      <div class="autocomplete">
+        <input id="countrySelector" type="search" name="country" placeholder="Country" data-1p-ignore>
+      </div>
+      <button type="submit">Submit</button>
     </div>
-    <button type="submit">Submit</button>
   </form>
   <br>
   <div id="submissionResult" style="display: none; background-color: #bfdbfe; padding: 12px; margin-top: 8px;"></div>
