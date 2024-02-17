@@ -15,7 +15,7 @@ A demo can be found at: [https://www.yannickbrouwer.nl/countries](https://www.ya
 1. **Multilingual Support**: Accepts Dutch and English inputs for country names, catering to users who might use English spellings in Dutch applications. Both `Germany` and `Duitsland` will lead to the same country, with suggestions shown in the currently selected language. You could for example also create a version where users can input the name of a country in it's native language.
 2. **Diacritic Insensitivity**: Accepts inputs with or without diacritic marks. For example, both `Réunion` and `Reunion` are recognized as valid.
 3. **Flexible Formatting**: Supports inputs with dashes, spaces, or no spaces at all, leading to the correct country. For instance in Dutch, `Nieuw-Zeeland` is correct but `Nieuw Zeeland` and `nieuwzeeland` all correctly identify as New Zealand.
-4. **Alternative Names**: Recognizes well-known alternative names for countries, e.g., `United Kingdom`, `England`, and `Great-Britain` all resolve to the United Kingdom.
+4. **Alternative Names**: Recognizes well-known alternative names for countries, e.g., `United Kingdom`, `England`, `Great Britain` and  `Northern Ireland` all resolve to the United Kingdom.
 
 ### Sorting
 
