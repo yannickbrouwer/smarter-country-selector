@@ -38,7 +38,7 @@ By default, the top option is highlighted upon typing. If the form is exited by 
 
 ## Implementation
 
-The prototype is built using HTML, CSS and Javascript. I'm a designer by trade so my code is a bit messy. If you have suggestions for improvements feel free to submit an issue or pull request on GitHub.
+The prototype is built using HTML, CSS and Javascript (Vanilla). I'm a designer by trade so my code is a bit messy. If you have suggestions for improvements feel free to submit an issue or pull request on GitHub.
 
 ## License
 
